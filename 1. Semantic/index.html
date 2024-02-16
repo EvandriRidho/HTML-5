@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Welcome to my site</h1>
-    <div class="navigation" role="navigation">
+    <div class="navigation" role="navigation" aria-label="my-main-navigation">
         <h2>Navigation Title</h2>
         <ol>
             <li><a href="">Link 1</a></li>
@@ -15,5 +15,9 @@
             <li><a href="">Link 3</a></li>
         </ol>
     </div>
+<!-- Jika menggunakan div akan diskip saat menggunakan screen reader
+jadi disarankan menggunakan semantic html : nav,header,main,footer,
+namun jika tetap menggunakan div maka disarankan diberi role  aria-label dan lainnya -->
+
 </body>
 </html>
